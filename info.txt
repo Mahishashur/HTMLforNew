@@ -1,0 +1,3 @@
+<! Group TOGETHER HTML -->
+<!-- <span> inline to group elements for stylings  -->
+<!-- <div> block to group elements for styling -->
