@@ -69,3 +69,18 @@ examples:
             <td>9 AM to 5 PM</td>
         </tr>
     </table>
+
+    <-- Buttons --> 
+<body>
+    <a href="https://www.google.com/">
+    <button onclick="doSomething()" style="background-color: skyblue; font-size:25px; border-radius:25px; color:brown">Click Me</button>
+    </a>
+    <p id = greeting> Hello </p>
+
+    <script>
+       function doSomething(){
+        document.getElementById("greeting").innerHTML ="Goodbye";
+       }
+      </script>
+</body>
+</html>

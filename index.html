@@ -6,30 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="https://www.google.com/">
+    <button onclick="doSomething()" style="background-color: skyblue; font-size:25px; border-radius:25px; color:brown">Click Me</button>
+    </a>
+    <p id = greeting> Hello </p>
 
-    <!--Table-->
-    
-    <h2>Store Hours</h2>
-
-    <table border = "1" style = "background-color:pink">
-        <tr align = "center" style = "background-color:lightgoldenrodyellow">
-            <th>Sunday</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
-        <tr>
-            <td>Close</td>
-            <td>9 AM to 5 PM</td>
-            <td>9 AM to 5 PM</td>
-            <td>9 AM to 5 PM</td>
-            <td>9 AM to 5 PM</td>
-            <td>9 AM to 5 PM</td>
-            <td>9 AM to 5 PM</td>
-        </tr>
-    </table>
+    <script>
+       function doSomething(){
+        document.getElementById("greeting").innerHTML ="Goodbye";
+       }
+      </script>
 </body>
 </html>
