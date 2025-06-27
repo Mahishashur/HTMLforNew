@@ -42,3 +42,30 @@ examples:
     <dt>Werewolf</dt>
     <dd>a creature from folklore and fiction that can transform into a wolf or a wolf-like creature, often at night, and particularly under the influence of a full moon</dd>
 </dl>  
+
+
+
+    <!--Table-->
+    
+    <h2>Store Hours</h2>
+
+    <table border = "1" style = "background-color:pink">
+        <tr align = "center" style = "background-color:lightgoldenrodyellow">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <td>Close</td>
+            <td>9 AM to 5 PM</td>
+            <td>9 AM to 5 PM</td>
+            <td>9 AM to 5 PM</td>
+            <td>9 AM to 5 PM</td>
+            <td>9 AM to 5 PM</td>
+            <td>9 AM to 5 PM</td>
+        </tr>
+    </table>
