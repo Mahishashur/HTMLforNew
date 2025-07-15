@@ -147,3 +147,40 @@ form
 </body>
 </html>
 --------------------------------------------------------------------------------------------------------
+Header & Footer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahishasur</title>
+</head>
+<body>
+    <header style = "background-color: mediumpurple;">
+        <h1>Welcome to Mahishasur</h1>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Product</a>
+        <a href="">Contect US</a>
+        <hr>
+    </header>
+
+    <main>
+        <h4> Check out these cool moves</h4>
+        <image src="img/download.jpg" alt="download">
+        <p> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consectetur quas incidunt ratione? Iste libero voluptatem similique fugiat nulla facere quam voluptatibus magni distinctio earum nemo incidunt, sed modi ad!
+        </p>
+    </main>
+
+    <footer style ="background-color: mediumblue;">
+        <hr>
+        Author: Mahishasur <br>
+        @copy; copyright reserved <br>
+        <small><a href="abc@gmail.com">Emailfake</a></small>
+    </footer>
+    
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------
