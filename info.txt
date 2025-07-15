@@ -117,6 +117,25 @@ form
     <input type="radio" id="Ms." value="Ms." name="title">
     <label for="PhD.">PhD.</label>
     <input type="radio" id="PhD." value="PhD." name="title"><br>
+     <label for="title">Title:</label>
+    <label for="MR.">MR.</label>
+    <input type="radio" id="MR." value="MR." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+    <label for="Payment"></label>
+    <select id="Payment">
+        <option value="VISA">VISA</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="UPI">UPI</option>
+    </select><br>
+
+    <label for="Subscribe">Subscribe:</label>
+    <input type="checkbox" id="Subscribe"><br>
+    <label for="Comments">Comments:</label>
+    <textarea id="Comments" rows="3" cols="25"></textarea><br>
 
     <input type="reset"><br>
     <input type="submit">
