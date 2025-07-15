@@ -184,3 +184,63 @@ Header & Footer
 </body>
 </html>
 -----------------------------------------------------------------------------------------------------------------------
+
+<! -- Inline, Internal, External -- >
+
+<! -- Inline -->
+
+<body style="background-color:black">
+    <!-- Inline -->
+     <h1 style= "color:white ">This is my website</h1>
+
+     <p style= "color:white " id="p1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p style= "color:white " id="p2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p style= "color:white " id="p3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p style= "color:white " id="p4" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+
+     <!-- Internal -->
+
+   <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color:white;
+        }
+        p{
+            color:yellow;
+        }
+    </style>
+</head>
+<body style="background-color:black">
+     <h1 style= "color:white ">This is my website</h1>
+
+     <p  id="p1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p  id="p2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p  id="p3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+     <p  id="p4" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem explicabo hic aperiam officiis laborum velit ex, voluptas dolores enim, fuga iure dolorum blanditiis facere dignissimos. Autem recusandae similique nobis assumenda.</p>
+
+<! -- External -->
+
+another css file.
+
+body{
+    background-color: black;
+}
+h1{
+    color:white
+}
+#p1{
+    color: red;
+}
+#p2{
+    color:orange;
+}
+#p3{
+
+    color:yellow;
+}
+#p4{
+    color:blueviolet;
+}
