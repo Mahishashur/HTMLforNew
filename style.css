@@ -1,19 +1,17 @@
-body{
-    background-color: black;
-}
-h1{
-    color:white
-}
-#p1{
-    color: red;
-}
-#p2{
-    color:orange;
-}
-#p3{
 
-    color:yellow;
+
+@font-face{
+
+    src: url(font/Playwrite_AU_QLD/PlaywriteAUQLD-VariableFont_wght.ttf);
+    font-family: Pacifico-Regular;
 }
-#p4{
-    color:blueviolet;
+
+h1{
+    font-family: "Pacifico-Regular";
+}
+p{
+    font-family: "Pacifico-Regular";
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
 }
