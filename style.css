@@ -1,17 +1,13 @@
-
-
-@font-face{
-
-    src: url(font/Playwrite_AU_QLD/PlaywriteAUQLD-VariableFont_wght.ttf);
-    font-family: Pacifico-Regular;
-}
-
 h1{
-    font-family: "Pacifico-Regular";
+    padding: 5px;
+    border: 3px solid rgb(255, 158, 174);
+    border-radius: 20px;
 }
+
 p{
-    font-family: "Pacifico-Regular";
-    font-size: 1.5em;
-    font-weight: bold;
-    font-style: italic;
+    border-bottom: 3px solid red;
+    border-top:3px solid green;
+    border-left: 3px dotted yellow;
+    border-right: 3px dotted blue;
+    border-radius: 10px ;
 }
