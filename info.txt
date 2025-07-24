@@ -295,3 +295,41 @@ h1{
     background-color: skyblue;
     box-shadow: 3px 3px 5px blue,-3px -3px 5px red;
 }
+----------------------------------------------------------------------------------------------------------
+
+<-- margins -->
+
+html:
+
+<body>
+    <!-- margins = space around an element-->
+
+    <div class= "box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+</body> 
+
+CSS:
+
+body{
+
+    margin: 0px;
+
+}
+.box{
+
+    border: 5px solid;
+    font-size: 5em;
+    height:250px;
+    width: 250px;;
+    
+}
+#box1{
+
+    background-color:red;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+#box2{
+    background-color: blue;
+    margin-left:40px;
+}
