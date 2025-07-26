@@ -333,3 +333,37 @@ body{
     background-color: blue;
     margin-left:40px;
 }
+------------------------------------------------------------------------------------------------------
+
+<body>
+    <!-- float = allow other elements to flow around -->
+
+    <img src = "img/download.jpg" height="150px" id="img1">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta blanditiis dolorem id delectus vitae incidunt similique dolore perspiciatis enim neque impedit architecto quos, nam vero, aliquam veritatis fuga facere.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta blanditiis dolorem id delectus vitae incidunt similique dolore perspiciatis enim neque impedit architecto quos, nam vero, aliquam veritatis fuga facere.</p>
+
+    <img src = "img/fevicon.jpg" height="150px" id="img2">
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta blanditiis dolorem id delectus vitae incidunt similique dolore perspiciatis enim neque impedit architecto quos, nam vero, aliquam veritatis fuga facere.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta blanditiis dolorem id delectus vitae incidunt similique dolore perspiciatis enim neque impedit architecto quos, nam vero, aliquam veritatis fuga facere.</p>
+    
+
+    
+</body>  
+
+css:
+
+body{
+
+    border: 3px solid;
+    display: flow-root;
+
+}
+#img1{
+    float:left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}

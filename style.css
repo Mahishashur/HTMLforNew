@@ -1,23 +1,14 @@
 body{
 
-    margin: 0px;
+    border: 3px solid;
+    display: flow-root;
 
 }
-.box{
-
-    border: 5px solid;
-    font-size: 5em;
-    height:250px;
-    width: 250px;;
-    
+#img1{
+    float:left;
+    margin-right: 10px;
 }
-#box1{
-
-    background-color:red;
-    margin-bottom: 50px;
-    margin-left: auto;
-}
-#box2{
-    background-color: blue;
-    margin-left:40px;
+#img2{
+    float: right;
+    margin-left: 10px;
 }
