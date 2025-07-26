@@ -367,3 +367,30 @@ body{
     float: right;
     margin-left: 10px;
 }
+--------------------------------------------------------------------------------------------------------------
+body>
+    <!-- overfloat = property that sets the desired 
+        behavior when content does not fit in the 
+        parent element box (overflows)
+        
+            overflow: visible
+            overflow: hidden
+            overflow: clip
+            overflow: scroll
+            overflow: auto
+
+        -->
+
+        <div>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas quae nostrum minima, sequi voluptas quaerat. Repellat nulla sed dolore, cum, quasi eveniet atque odio autem repellendus ad ut in!</p>
+        </div>
+
+css:
+
+div{
+
+    border: 2px solid;
+    height: 90px;
+    overflow: auto;
+
+}
