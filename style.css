@@ -1,7 +1,14 @@
 div{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: hidden,block,inline-block,inline;
+}
 
-    border: 2px solid;
-    height: 90px;
-    overflow: auto;
+span{
 
+  background-color: cadetblue;
+  height: 100px;
+  width: 100px;
+  display: none;
 }
