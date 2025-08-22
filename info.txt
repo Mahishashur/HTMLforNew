@@ -466,3 +466,38 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+----------------------------------------------------------------------------------------------------
+
+<!--
+    combinators = Explains the relationship
+                    between listed selectors
+                    = descendant
+                >   = child
+                ~   = general sibling
+                +   = adjacent sibling    
+                -->
+
+
+HTML:
+
+<div id="container">
+  <p>this is #1</p>
+  <p>this is #1</p>
+  <div>
+    <p>this is #2</p>
+  </div>
+</div>
+
+<p>this is #3</p>
+<p>this is #4</p>
+  </body>
+
+CSS:
+#container{
+
+  border:  2px solid;
+}
+#container + p{
+
+  background-color: rgb(235, 235, 79);
+}
