@@ -1,4 +1,6 @@
-/* a:link{
+/*
+those are pseudo classes
+a:link{
   color:rgb(46, 46, 245);
  }
 
@@ -23,7 +25,19 @@ li:hover{
 li:not(:hover){
   background-color: rgb(121, 117, 117);
 }
-  */
+  
   li:nth-child(3n+1){
     background-color: rgb(240, 240, 128);
   }
+    */
+
+    #greeting p{
+      background-color: rgb(184, 184, 238);
+      padding : 10px;
+      display: none;
+      cursor: pointer;
+       
+    }
+    #greeting:hover p{
+      display: block;
+    }
