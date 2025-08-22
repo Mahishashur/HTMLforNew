@@ -1,18 +1,8 @@
-#box1{
+body{
 
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  position: sticky;
-  top: 0px;
-}
-
-#box2{
-
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  position: absolute;
-  top: 50px;
-  left:50px;
+  background-image: url(img/download.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }

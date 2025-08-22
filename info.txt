@@ -449,3 +449,20 @@ CSS:
   top: 50px;
   left:50px;
 }
+---------------------------------------------------------------------------------------
+
+<!-- Background Inmage --!>
+
+
+  <h1> Hello My Name Is Himanshu</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio voluptatibus velit temporibus sunt quasi dolor sint sapiente omnis aperiam. Beatae totam assumenda voluptatum consectetur nobis rem commodi molestiae itaque inventore?</p>
+    
+
+body{
+
+  background-image: url(img/download.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
