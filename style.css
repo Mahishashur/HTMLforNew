@@ -1,8 +1,25 @@
-#container{
+/* a:link{
+  color:rgb(46, 46, 245);
+ }
 
-  border:  2px solid;
+ a:hover{
+  color:rgba(201, 201, 249, 0.603)
+ }
+
+ a:active{
+  color: rgb(156, 102, 1);
+ }
+ 
+ a:visited{
+  color: rgb(46, 46, 245);
+ }
+  */
+
+li:hover{
+  background-color: rgb(246, 246, 101);
+  cursor: pointer;
+   
 }
-#container + p{
-
-  background-color: rgb(235, 235, 79);
+li:not(:hover){
+  background-color: rgb(121, 117, 117);
 }
