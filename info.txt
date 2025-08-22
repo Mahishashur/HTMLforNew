@@ -406,4 +406,46 @@ div{
                     (span, a, img)
 
     -->
-    
+---------------------------------------------------------------------------------------------------------------------
+<!--
+    Position:
+      Relative = Positioned relative to where it normally
+      Fixed = Position realtive to the viewport.
+      Absolute = Position relative to nearest ancestor.
+      Sticky = Positioned based on scroll Position.
+      static = Defauult postion for an element.
+       
+--!>
+
+<div id="box1"></div>
+    <div id="box2">
+    </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, vitae esse aliquam nam adipisci libero dolorem. Doloribus perferendis sint dolor vero voluptate officia. Officiis libero eos magni quam vel. Et.</p>
+    <p>Lorem ipsum dolor sit amet, cons
+
+CSS:
+
+#box1{
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: sticky;
+  top: 0px;
+}
+
+#box2{
+
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  position: absolute;
+  top: 50px;
+  left:50px;
+}

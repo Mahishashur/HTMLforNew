@@ -1,14 +1,18 @@
-div{
+#box1{
+
+  width: 200px;
+  height: 200px;
   background-color: red;
-  height: 100px;
-  width: 100px;
-  display: hidden,block,inline-block,inline;
+  position: sticky;
+  top: 0px;
 }
 
-span{
+#box2{
 
-  background-color: cadetblue;
-  height: 100px;
   width: 100px;
-  display: none;
+  height: 100px;
+  background-color: lightblue;
+  position: absolute;
+  top: 50px;
+  left:50px;
 }
