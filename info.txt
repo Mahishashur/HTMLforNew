@@ -501,3 +501,55 @@ CSS:
 
   background-color: rgb(235, 235, 79);
 }
+--------------------------------------------------------------------------------------------------------
+<!-- 
+pseudo - element = Keyword added after a selectors
+                    that's used to style a specific
+                    parts of an element.
+
+                    selectors :: pseudo-element
+-->
+
+
+  <h1> Hello</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus vero molestiae animi molestias incidunt alias perspiciatis dicta, nemo, commodi consequatur sint sequi earum iure? Libero quasi cumque nostrum praesentium minima.</p>
+  <ul id="fruit">
+    <li id="apple">apple</li>
+    <li id="orange">orange</li>
+    <li id="banana">banana</li>
+  </ul>
+
+
+CSS:
+
+h1::first-letter{
+
+  font-size: 2em;
+  font-style: italic;
+}
+p::first-line{
+  background-color: yellowgreen;
+}
+p::selection{
+  color: greenyellow;
+  background-color: black;
+}
+/* #fruit::before{
+  content: "✅";
+}
+  */
+
+#apple::after{
+  content: "🍎";
+} 
+#orange::after{
+  content: "🍊";
+}
+#banana::after{
+  content: "🍌";
+}
+#fruit::before{
+  content: "✔️";
+  color: rgb(100, 90, 90);
+  font-size: 1,2em;
+}
