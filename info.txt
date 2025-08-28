@@ -598,3 +598,53 @@ HTML:
   <a href ="page5.html">5</a>
   <a href ="page5.html">></a>
 </div>
+-------------------------------------------------------------------------------------------------------------------------------------
+<!-- Dropdown Menu -->
+
+HTML:
+
+<div class = "dropdown">
+  <button>Food</button>
+  <div class ="content">
+  <a href ="">Apple</a>
+   <a href ="">Orange</a>
+   <a href ="">Banana</a>
+  </div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quam tenetur sint doloribus modi, pariatur iusto corporis, illo, consectetur fugiat voluptatum aliquid voluptate corrupti rem architecto recusandae ea a maiores?</p>
+  </body>
+
+  Css:
+
+  .dropdown{
+  display: inline-block;
+}
+.dropdown button{
+  background-color:hsl(0, 16%, 93%) ;
+  color:white;
+  padding: 10px 15px;
+border: none;
+cursor: pointer;
+}
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown .content{
+  display:none;
+  position:absolute;
+  background-color: hsl(0, 16%, 93%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px rgb(26, 24, 24);
+}
+.dropdown:hover .content{
+  display: block;
+}
+.dropdown:hover button{
+  background-color: rgb(95, 184, 154);
+}
+.dropdown a:hover{
+  background-color:  rgb(95, 184, 154);
+}
