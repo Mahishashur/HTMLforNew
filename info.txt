@@ -811,3 +811,53 @@ section{
   aside, section, article{
     width:100%;
   }}
+  -------------------------------------------------------------------------------
+
+ <!-- Gallery -->
+
+ HTML:
+
+ <body>
+  <div class = "gallery">
+   <a target="_blank" href="img/future.jpg">
+   <img src="img/future.jpg" alt="Future">
+   </a>
+   <div class="description">Future</div>
+  </div>
+
+    <div class = "gallery">
+   <a target="_blank" href="img/nature.jpg">
+   <img src="img/nature.jpg" alt="Nature">
+   </a>
+   <div class="description">Nature</div>
+  </div>
+
+    <div class = "gallery">
+   <a target="_blank" href="img/space.jpg">
+   <img src="img/space.jpg" alt="Space" >
+   </a>
+   <div class="description">Space</div>
+  </div>
+     
+</body>
+
+CSS:
+.gallery{
+  display: inline-block;
+  border: 1px solid blueviolet;
+  margin: 5px;
+  width: 200px;
+}
+
+.gallery .description{
+  padding: 10px;
+  text-align: center;
+}
+.gallery:hover{
+  border: 1px solid red;
+
+}
+.gallery img{
+  width: 100px;
+  height: auto;
+}
